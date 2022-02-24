@@ -1,0 +1,327 @@
+.background-sec {
+    margin-top: 72px;
+    padding: 15px;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-image: linear-gradient(
+        to right,
+        rgba(56, 58, 144, 0.7),
+        rgba(56, 58, 96, 0.95)
+      ),
+      url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  }
+  /* ------------------------------------------------------------------------------------------ */
+  
+  .navbar-mid-components {
+    height: 75vh;
+    display: flex;
+  }
+  
+  .navbar-section-bottom-container {
+    display: flex;
+    padding: 5px;
+  }
+  .nav-links-container {
+    margin-left: auto;
+    width: fit-content;
+    padding: 13px;
+    background: rgba(255, 255, 255, 0.45);
+    animation: slideInLeft 2s ease-in;
+  }
+  
+  .navbarlinks {
+    padding: 10px;
+    margin: 13px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+  }
+  
+  .navbarlinks:hover {
+    color: #fff;
+  }
+  .caption-heading {
+    padding: 15px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+    animation: slideIn 1s ease-in;
+  }
+  .pitchlab {
+    font-size: 3em;
+    text-align: left;
+    padding: 20px;
+    line-height: 5px;
+    margin: 15 0;
+    animation: slideIn 1s ease-in;
+  }
+  .heading-color {
+    color: goldenrod;
+    text-decoration: underline;
+    animation: slideIn 1s ease-in;
+  }
+  .paragraph {
+    line-height: 35px;
+    color: #f1f1f1;
+    animation: slideIn 1s ease-in;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  
+  #mid-1 {
+    width: 60%;
+    padding: 0 0 35px 95px;
+    transition: all 0.5s ease-in;
+  }
+  .mid-2 {
+    width: 50%;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+  
+  .kerasvg {
+    height: 370px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    /* background: url('../assets/rotation.svg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+  }
+  .get-started {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.45);
+    line-height: 30px;
+    transition: all 0.5s ease;
+  }
+  .get-started:hover {
+    color: #fff;
+    background: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.5),
+      rgba(56, 58, 96, 0.95)
+    );
+    cursor: pointer;
+  }
+  
+  .kerasvg {
+    animation: Rotation 30s infinite;
+  }
+  
+  @keyframes Rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .trial {
+    height: 100vh;
+  }
+  
+  
+  
+  @media (min-width: 1281px) {
+    .paragraph {
+      font-weight: 500;
+    }
+  }
+  
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .background-sec {
+      width: auto;
+    }
+    .caption-heading h1 {
+      font-size: 35px;
+    }
+    .paragraph {
+      font-size: 20px;
+    }
+    .pitchlab {
+      font-size: 55px;
+    }
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .background-sec {
+      width: auto;
+    }
+    .caption-heading h1 {
+      font-size: 25px;
+      display: inline-flex;
+    }
+    .kerasvg {
+      display: none;
+    }
+    .kerasvg2 {
+      display: none;
+    }
+    .paragraph {
+      width: 350px;
+      font-weight: 400;
+    }
+    .kerasvg3 {
+      background: url("../assets/kera3.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      min-width: 300px;
+      max-width: 500px;
+      height: 350px;
+      margin-top: 25%;
+      margin-left: -14%;
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .background-sec {
+      width: auto;
+    }
+    .caption-heading h1 {
+      font-size: 30px;
+      display: inline-flex;
+    }
+    .caption-heading {
+      font-size: 130%;
+    }
+    .kerasvg {
+      display: none;
+    }
+    .kerasvg2 {
+      background: url("../assets/phone.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      width: 350px;
+      height: 350px;
+      margin-top: 175px;
+    }
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .background-sec {
+      width: auto;
+      margin-top: 2px;
+    }
+    .caption-heading h1 {
+      font-size: 20px;
+      display: inline-flex;
+      width: auto;
+    }
+    .pitchlab {
+      font-size: 30px;
+      font-weight: 900;
+      margin-top: 10px;
+      margin-left: -24%;
+    }
+    .paragraph {
+      width: 450px;
+      font-weight: 300;
+    }
+    .caption-heading {
+      font-size: 20px;
+      font-weight: 400;
+      width: auto;
+      margin-left: -80px;
+      margin-top: -35px;
+    }
+    .kerasvg {
+      display: none;
+    }
+    .kerasvg2 {
+      display: none;
+    }
+  
+    .nav-links-container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .navbarlinks {
+      font-size: 17px;
+      width: auto;
+    }
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .background-sec {
+      width: auto;
+      margin-top: 3px;
+    }
+    .caption-heading h1 {
+      font-size: 22px;
+      width: auto;
+      display: inline-flex;
+    }
+    .pitchlab {
+      font-size: 2em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .caption-heading {
+      font-size: 15px;
+      width: 270px;
+      margin-left: -90px;
+    }
+    .kerasvg {
+      display: none;
+    }
+  
+    /*---------------------------------------test after service section is made jan 7 ------------------*/
+    .navbar-section-bottom-container {
+      padding: 7px;
+    }
+    .nav-links-container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.45);
+    }
+  
+    .navbarlinks {
+      margin-left: auto;
+      margin-right: auto;
+      /* margin: 7px; */
+      font-size: 15px;
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      transition: all 0.5s ease;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0804bdbb.chunk.css",
+    "main.js": "/static/js/main.bfbd53cb.chunk.js",
+    "main.js.map": "/static/js/main.bfbd53cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d44cad05.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d44cad05.js.map",
+    "static/js/2.ee90079c.chunk.js": "/static/js/2.ee90079c.chunk.js",
+    "static/js/2.ee90079c.chunk.js.map": "/static/js/2.ee90079c.chunk.js.map",
+    "static/js/3.3db19af8.chunk.js": "/static/js/3.3db19af8.chunk.js",
+    "static/js/3.3db19af8.chunk.js.map": "/static/js/3.3db19af8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0804bdbb.chunk.css.map": "/static/css/main.0804bdbb.chunk.css.map",
+    "static/js/2.ee90079c.chunk.js.LICENSE.txt": "/static/js/2.ee90079c.chunk.js.LICENSE.txt",
+    "static/media/service.css": "/static/media/webdevelopment.b86feb68.svg",
+    "static/media/navbar.css": "/static/media/phone.3a7cda4c.svg",
+    "static/media/ourclients.css": "/static/media/navbarlogo.eb46581e.png",
+    "static/media/navbar-secondary.css": "/static/media/pitchlab-secondary.ea3acde8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d44cad05.js",
+    "static/js/2.ee90079c.chunk.js",
+    "static/css/main.0804bdbb.chunk.css",
+    "static/js/main.bfbd53cb.chunk.js"
+  ]
+}
